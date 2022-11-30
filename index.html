@@ -12,19 +12,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light">
+<header>
+    <nav class="navbar navbar-expand-md navbar-light shadow">
         <div class="container">
             <div class="row container-fluid d-flex align-items-center">
                 <div class="col-md-2 col-sm-12">
-                    <a class="navbar-brand fw-bold fs-4" href="#">Digi<span class="text-vio">Gram</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#digigram">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <a class="navbar-brand fw-bold fs-4" href="#">Digi<span class="text-vio">Gram.</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#digigram">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
                 </div>
+                <div class="collapse navbar-collapse" id="digigram">
                 <div class="col-md-8 col-sm-12">
-                    <div class="collapse navbar-collapse" id="digigram">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active"><a href="#" class="nav-link">
+                        <ul class="navbar-nav me-auto ">
+                            <li class="nav-item"><a href="#" class="nav-link active">
                                 Home
                             </a></li>
                             <li class="nav-item"><a href="#" class="nav-link">
@@ -41,14 +42,15 @@
                             </a></li>
                         </ul>
                     </div>
+                    <div class="col-md-2 col-sm-12 my-sm-3">
+                        <button class="d-block ms-auto btn btn-light border-secondary rounded-pill py-2 px-4 text-muted">Get a Quote</button>
+                    </div>
                 </div>
-                <div class="col-md-2 col-sm-12 my-sm-3">
-                    <button class="btn btn-light border-secondary rounded-pill py-2 px-4 text-muted">Get a Quote</button>
-                </div>
+                
             </div>
         </div>
-
     </nav>
+</header>
     
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
