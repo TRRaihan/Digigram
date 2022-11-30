@@ -1,0 +1,27 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-vio{
+    color: #6c55f9;
+}
+
+.bg-vio{
+    color: #6c55f9;
+}
+
+.nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.active .nav-link{
+    color: #6c55f9;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #6c55f9;
+}
+.navbar{
+    box-shadow: 0 0 20px 5px #888888;
+}
+
