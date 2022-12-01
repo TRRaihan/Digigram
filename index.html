@@ -39,7 +39,7 @@
                     </ul>
                 </div>
                 <div class="my-sm-2">
-                    <button class="d-block ms-auto btn btn-light border-secondary rounded-pill py-2 px-4 text-muted">Get a Quote</button>
+                    <button class="d-block ms-auto btn btn-light border-secondary text-light rounded-pill py-2 px-4 text-muted">Get a Quote</button>
                 </div>
             </div>
     </nav>
@@ -52,7 +52,7 @@
                 <h2 class="h1">Great Companies are built on great Products</h2>
                 <p>Ignite the most powerfull growth engine you have ever built for your company</p>
                 <button class="btn btn-outline border text-muted px-4 py-3">More Info</button>
-                <button class="btn btn-primary px-4 text-light py-3 rounded-pill ms-3">Watch Video
+                <button class="btn btn-primary px-4 text-light py-3 rounded-pill ms-3" data-bs-toggle= "modal" data-bs-target="#myModel">Watch Video
                     <i class=" bi bi-play-fill ms-2 text-vio bg-light rounded-circle p-1"></i>
                 </button>
             </div>
@@ -63,9 +63,32 @@
     </section>
 <!-- 1st Section End -->
 
+<!-- Modal -->
+<div class="modal fade" id="myModel" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Unmute the Video</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <video width="100%" controls autoplay muted>
+                <source src="assets/video/modal.mp4" type="video/mp4">
+              </video> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- Modal -->
+
+
 
 <!-- 2nd Section Start -->
-    <section class="second">
+    <section class="second border-bottom border-top py-5">
         <div class="row g-5">
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="row">
@@ -103,8 +126,20 @@
         </div>
     </section>
 <!-- 2nd Section End -->
-
+    <section class="second">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 my-5">
+                <img src="assets/images/bg_image_2.png" alt="bg2" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <h2 class="">
+                    website template image We're <span>Dynamic</span> Team of Creatives People
+                </h2>
+            </div>
+        </div>
+    </section>
 <!-- 3rd Section Start -->
+
 <!-- 2rd Section End -->
 
 <!-- 4th Section Start -->
